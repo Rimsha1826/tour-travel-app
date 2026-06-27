@@ -8,7 +8,7 @@ function Navbar() {
     isActive ? "text-blue-600 font-semibold" : "text-gray-700";
 
   return (
-    <nav className="flex justify-between items-center px-4 md:px-6 py-4 bg-white shadow-md relative">
+    <nav className="flex justify-between items-center px-4 md:px-6 py-4 bg-white shadow-md relative z-50">
       <h1 className="text-2xl font-bold text-blue-600">TravelGo</h1>
 
       {/* Desktop menu */}
